@@ -3,16 +3,64 @@
 var myGame = {
 	trivia: {
 		t1: {
-            question: "What character from The Aristocats is named after a composer?",
+            question: "The Aristocats<br><br>What character is named after a composer?",
             answers: ["Marie", "Thomas O'Malley", "Berlioz", "Toulouse"],
             correctAnswerIndex: 2,
             correctAnswerImage: "assets/images/berlioz.gif"
         },
         t2: {
-            question: "What is the name of the father Dalmatian in 101 Dalmatians?",
+            question: "101 Dalmatians<br><br>What is the name of the father Dalmatian?",
             answers: ["Lucky", "Pongo", "The Colonel", "Patch"],
             correctAnswerIndex: 1,
             correctAnswerImage: "assets/images/pongo.gif"
+        },
+        t3: {
+            question: "Tangled<br><br>What kind of animal is Pascal?",
+            answers: ["Gecko", "Chameleon", "Frog", "Iguana"],
+            correctAnswerIndex: 1,
+            correctAnswerImage: "assets/images/pascal.gif"
+        },
+        t4: {
+            question: "The Little Mermaid<br><br>Who is Ariel's best friend?",
+            answers: ["Flounder", "Flotsam", "King Triton", "Max"],
+            correctAnswerIndex: 0,
+            correctAnswerImage: "assets/images/flounder.gif"
+        },
+        t5: {
+            question: "Peter Pan<br><br>Which of the following is not one of the Darling Children?",
+            answers: ["Wendy", "John", "Michael", "Thomas"],
+            correctAnswerIndex: 3,
+            correctAnswerImage: "assets/images/peterpan.gif"
+        },
+        t6: {
+            question: "What does Winnie the Pooh borrow from Christopher Robin to get up the honey tree?",
+            answers: ["Ladder", "Wings", "Pogo Stick", "Balloon"],
+            correctAnswerIndex: 3,
+            correctAnswerImage: "assets/images/winniethepooh.gif"
+        },
+        t7: {
+            question: "Beauty and the Beast<br><br>What is the name of Mrs. Potts' son?",
+            answers: ["Sam", "Saucer", "Chip", "Crack"],
+            correctAnswerIndex: 2,
+            correctAnswerImage: "assets/images/chip.gif"
+        },
+        t8: {
+            question: "The Jungle Book<br><br>What is the name of Mowgli's black panther friend?",
+            answers: ["Bagheera", "Baloo", "King Louie", "Kaa"],
+            correctAnswerIndex: 0,
+            correctAnswerImage: "assets/images/bagheera.gif"
+        },
+        t9: {
+            question: "The Lion King<br><br>Which of the following is not a hyena?",
+            answers: ["Ed", "Scar", "Shenzi", "Bonzai"],
+            correctAnswerIndex: 1,
+            correctAnswerImage: "assets/images/hyenas.gif"
+        },
+        t10: {
+            question: "The song 'When You Wish Upon A Star' is from which animated movie?",
+            answers: ["Cinderella", "Sleeping Beauty", "Pinocchio", "Peter Pan"],
+            correctAnswerIndex: 2,
+            correctAnswerImage: "assets/images/pinocchio.gif"
         }
     },
     timer: 0,
