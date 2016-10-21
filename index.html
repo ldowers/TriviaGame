@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Disney Movie Trivia Game</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<div class="jumbotron text-center" id="gameArea">
+					<div class="row" id="rowHeight">
+						<div class="col-sm-12">
+							<h1 class="disney-font">Disney Movie Trivia</h1>
+							<div id="timeRemaining"></div>
+							<div id="question"></div>
+							<div id="result"></div>
+							<div id="correctAnswer"></div>
+							<img id="correctAnswerImage" src="" alt="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+						</div>
+						<div class="col-sm-4">
+							<div class="answer" id="answer1" value="0"></div>
+							<div class="answer" id="answer2" value="1"></div>
+							<div class="answer" id="answer3" value="2"></div>
+							<div class="answer" id="answer4" value="3"></div>
+							<button type="button" class="btn btn-primary btn-block" id="startButton">Start</button>
+						</div>
+						<div class="col-sm-4">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+	</div>
+	<script src='assets/javascript/app.js'></script>
+</body>
+</html>

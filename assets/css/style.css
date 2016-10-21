@@ -1,0 +1,42 @@
+html, body {
+	height:100%;
+	width:100%;
+}
+
+body {
+	background: url("../images/disney.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: WaltDisneyScript;
+	src: url('../fonts/wds052801.ttf') format('truetype');
+}
+
+.jumbotron h1 {
+	color: darkblue;
+}
+
+.disney-font {
+	font-family: WaltDisneyScript,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.answer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#gameArea {
+	background-color: lightskyblue;
+	min-height: 560px;
+	margin-top: 40px;
+	border: 20px groove;
+}
+
+#rowHeight {
+	min-height: 200px;
+}
+
+#startButton {
+	font-size: 24px;
+}
